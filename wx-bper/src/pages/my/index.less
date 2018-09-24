@@ -1,0 +1,59 @@
+.my {
+  .top {
+    /* height: 320rpx; */
+    padding: 48rpx;
+    position: relative;
+    height: auto;
+    height: 340rpx;
+    overflow: hidden;
+    border: 1px solid rgba(151, 151, 151, 0.1);
+    box-shadow: 0 5px 16px 0 rgba(0, 0, 0, 0.05);
+    margin-bottom: 16rpx;
+  }
+  .top>.background {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 0;
+  }
+  .top>at-avatar {
+    z-index: 100;
+    position: absolute;
+    right: 48rpx;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 180rpx;
+    height: 180rpx;
+  }
+  .top>button {
+    border: none;
+    display: inline-block;
+    position: absolute;
+    z-index: 100;
+    font-size: 50rpx;
+    color: #494949;
+    letter-spacing: 0;
+    line-height: 280rpx;
+  }
+  .bottom>view {
+    height: 126rpx;
+    position: relative;
+    border-bottom: 1px solid rgba(224, 224, 224, 0.3);
+  }
+  .bottom>view>text {
+    position: absolute;
+    left: 106rpx;
+    line-height: 126rpx;
+    font-size: 32rpx;
+    color: #494949;
+    letter-spacing: 0;
+  }
+  .bottom>view>image {
+    width: 58rpx;
+    position: absolute;
+    top: 50%;
+    left: 32rpx;
+    transform: translateY(-50%);
+  }
+}
